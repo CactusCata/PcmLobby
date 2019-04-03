@@ -1,0 +1,19 @@
+name: PcmLobby
+author: CactusCata
+main: com.gmail.cactuscata.pcmlobby.PcmLobby
+version: 1.0.0
+website: https://pleasecraftme.fr/
+depend: [PcmApi]
+
+commands:
+    boutique:
+        aliases: [shop, boutique, buy]
+        description: ON VEUT DE L'ARGENT kappa
+        usage: /<command>
+    defaultitems:
+        description: Recupere les items par defauts
+        usage: /<command> [joueur]
+        permission: pcm.lobby.admin.command.defaultitems
+    spawn:
+        description: Permet de se teleporter au spawn
+        usage: /<command>
